@@ -7,7 +7,7 @@
                 background: rgb(34,139,34);
                 color: rgb(45, 45, 45);
                 padding: 10px;
-                font-family: arial;
+                font-family: Times ;
             }
             header {
                 font-size: 1.5em;
@@ -24,12 +24,14 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
+                
             }
             nav ul {
                 list-style-image: none;
@@ -37,6 +39,7 @@
             nav li {
                 display: inline-block;
                 padding: 0 10px;
+                
             }
             nav a {
                 text-decoration: none;
@@ -47,6 +50,7 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                padding:10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -54,6 +58,7 @@
             }
             [class=sidebar] img {
                 width: 350px;
+               
             }
             [class=content] {
                 flex: 1;
@@ -62,6 +67,11 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
+            
+            [id=main-content] {
+                padding: 10px;
+            }
+            
         </style>
     </head>
     
@@ -77,14 +87,16 @@
                 
                 
             </nav>
+            <div id="main-content">
             <main>
                 <div class="sidebar">
-                    <img src="/Jasmine-Meaning.jpg">
+                    <img src="/C29PCgrVEAAx--g.jpg-large">
                 
                 </div>
                 
                 <div class="content">
                     <header>Jasmine Magee</header>
+                
                     <p>Student at Warren Easton Charter High school</p>
                     <section class="interests">
                         <header>Interests</header>
@@ -97,6 +109,8 @@
             </div>
                 
             </main>
+            </div>
+            
         </div>
         
     </body> 
